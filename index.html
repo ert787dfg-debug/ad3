@@ -1,0 +1,47 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>منصة MCQs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>منصة الأسئلة متعددة الخيارات</h1>
+    <p class="subtitle">جرّب، صحّح، تعلّم، وأعد المحاولة</p>
+  </header>
+
+  <main class="container">
+    <section id="quiz" class="quiz">
+      <div id="question" class="question"></div>
+
+      <ul id="choices" class="choices"></ul>
+
+      <div class="controls">
+        <button id="checkBtn" class="btn primary">تحقق من الإجابة</button>
+        <button id="nextBtn" class="btn">السؤال التالي</button>
+        <button id="retryBtn" class="btn danger">إعادة المحاولة</button>
+      </div>
+
+      <div id="feedback" class="feedback"></div>
+    </section>
+
+    <section id="resultPanel" class="result-panel hidden">
+      <h2>نتيجتك</h2>
+      <p id="scoreText"></p>
+      <div class="result-actions">
+        <button id="restartBtn" class="btn primary">إعادة الاختبار</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>تم التصميم للتعلّم العادل والواضح</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "text": "ما هي نتيجة 2 + 2؟",
+    "choices": ["3", "4", "5", "2"],
+    "answer": 1,
+    "feedback": {
+      "correct": "صحيح!",
+      "wrong": "الصحيح هو 4."
+    }
+  },
+  {
+    "text": "أي من التالي يُعد لغة لبناء صفحات الويب؟",
+    "choices": ["HTML", "SQL", "Python", "C++"],
+    "answer": 0,
+    "feedback": {
+      "correct": "أحسنت، HTML.",
+      "wrong": "الصحيح HTML."
+    }
+  }
+]
